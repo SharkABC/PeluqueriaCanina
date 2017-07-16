@@ -1,0 +1,56 @@
+body{
+  font-family: 'Lilita One', cursive;
+  background-color: orange;
+}
+
+.navbar-inverse{
+}
+
+.navbar-brand {
+  font-family: 'Great Vibes', cursive;
+  font-size: 30px;
+}
+
+.div-home {
+  background-color: purple;
+  color: #fff;
+  margin-top: 2em;
+	text-align: center;
+	font-size: 30px;
+	padding: 25px;
+}
+
+.div-gallery {
+  background-color: orange;
+	text-align: center;
+	font-size: 30px;
+	padding: 25px;
+}
+
+.div-services {
+  background-color: purple;
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	padding: 25px;
+}
+
+.div-contact {
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	padding: 25px;
+}
+
+.div-footer {
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	font-size: 21px;
+	padding: 25px;
+}
+
+.lista-servicios{
+  text-align: left;
+}
