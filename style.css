@@ -1,56 +1,195 @@
 body{
   font-family: 'Lilita One', cursive;
-  background-color: orange;
+  background-color: #febf89;
 }
 
-.navbar-inverse{
+#h1-title{
+  font-size: 1.5em;
+  text-transform: uppercase;
 }
 
-.navbar-brand {
-  font-family: 'Great Vibes', cursive;
-  font-size: 30px;
+#div-home {
+    background-color: #d58ae6;
+    color: #fff;
+  	text-align: center;
+  	font-size: 2em;
+    padding-bottom: 1.5em;
+    border-bottom: 5px solid white;
 }
 
-.div-home {
-  background-color: purple;
-  color: #fff;
-  margin-top: 2em;
-	text-align: center;
-	font-size: 30px;
-	padding: 25px;
+
+#img-home{
+  /*border: 7px solid white;*/
+  display: inline;
 }
 
-.div-gallery {
-  background-color: orange;
-	text-align: center;
-	font-size: 30px;
-	padding: 25px;
+
+#div-gallery {
+  background-color: #ffdcbe;
+  text-align: center;
+  font-size: 2em;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  border: 15px dotted #ffcda3;
 }
 
-.div-services {
-  background-color: purple;
+#div-services {
+  /*background-color: #9d4daf;*/
+  background-color: #d58ae6;
 	color: #fff;
 	text-align: center;
-	font-size: 30px;
-	padding: 25px;
+	font-size: 2em;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
 }
 
-.div-contact {
+#div-contact {
+	background-color: #222222;
+	color: #fff;
+	text-align: center;
+	font-size: 2em;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+
+#div-footer {
 	background-color: black;
 	color: #fff;
 	text-align: center;
-	font-size: 30px;
-	padding: 25px;
+	font-size: 1.5em;
+  padding-top: 1em;
+  padding-bottom: 2em;
 }
 
-.div-footer {
-	background-color: black;
-	color: #fff;
-	text-align: center;
-	font-size: 21px;
-	padding: 25px;
+@media(min-width:768px){
+
+  .navbar-custom{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    text-transform: uppercase;
+  }
+
+  #bs-example-navbar-collapse-1 {
+    font-size: 2em;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+  }
+
+  #div-home {
+  	padding-top: 5em;
+  }
+
+  #div-gallery {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .wrapper-servicios{
+    text-align: center;
+  }
+
+  .lista-servicios{
+    padding-top: 1em;
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  #map{
+    width:25em;
+    height:10em;
+    margin-left:auto;
+    margin-right:auto;
+    border: 5px solid white;
+  }
 }
 
-.lista-servicios{
-  text-align: left;
+@media(max-width:767px) {
+  .navbar-brand {
+    font-size: 1em;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    text-transform: uppercase;
+  }
+
+  #bs-example-navbar-collapse-1 {
+    font-size: 1em;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+  }
+
+  #div-home {
+  	padding-top: 2em;
+  }
+
+  #div-gallery {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  .lista-servicios{
+    text-align: left;
+    font-size: 0.8em;
+    display: table;
+    margin: 0 auto;
+  }
+
+  #map{
+    width:10em;
+    height:5em;
+    margin-left:auto;
+    margin-right:auto;
+    border: 5px solid white;
+  }
+
+  #email{
+    font-size: 0.8em;
+  }
+}
+
+.img-responsive{
+  margin-top: 1em;
+}
+
+.div-address{
+  padding-top: 7.5em;
+}
+
+#address-email{
+  padding-top: 1em;
+}
+
+.img-gallery{
+  transition: 0.3s;
+}
+
+.img-gallery:hover{
+  transform: scale(1.1)
+}
+
+.a-menu{
+  transition: 0.3s;
+}
+
+.a-menu:hover{
+  transform: scale(1.1)
+}
+
+#direccion{
+  color: #337ab7;
+  text-decoration: none;
 }
