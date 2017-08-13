@@ -15,6 +15,22 @@ $( document ).ready(function() {
 
   });
 
+  $( ".next-page" ).click(function() {
+
+    var href = $(this).attr("href");
+    $('nav li a').each(function() {
+      $(this).parent().attr("class", "");
+      if($(this).attr("href") == href){
+        $(this).parent().attr("class", "active");
+      }
+    });
+
+    $root.animate({
+        scrollTop: $( $(this).attr('href') ).offset().top + -85
+    }, 500);
+    return false;
+  });
+
 });
 
 function initMap() {
