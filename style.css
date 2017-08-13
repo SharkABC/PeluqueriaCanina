@@ -186,10 +186,23 @@ body{
 }
 
 .a-menu:hover{
-  transform: scale(1.1)
+  transform: scale(1.1);
 }
 
 #direccion{
   color: #337ab7;
   text-decoration: none;
+}
+
+.next-page{
+  color: white;
+  transition: 0.3s;
+}
+
+.next-page:hover{
+  color: white;
+}
+
+.next-page:focus{
+  color: white;
 }
